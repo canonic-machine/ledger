@@ -12,6 +12,6 @@ Governed git machine scope under CANONIC.
 - /canonic/machine/
 
 ## References
-- GIT.md
+- GIT-000_spec.md
 - CANON.md
 - VOCAB.md

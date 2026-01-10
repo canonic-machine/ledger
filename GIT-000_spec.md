@@ -18,7 +18,7 @@
 4. Validation
    - Triad present.
    - Git history exists and is readable.
-   - Series artifacts match the `###-stub` pattern.
+   - Series artifacts match the `SPEC-###_stub` pattern.
    - Canon changes show approval and a coupled push when a remote exists.
 
 5. Consumption notes
