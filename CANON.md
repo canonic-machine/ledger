@@ -18,9 +18,11 @@ axioms:
    git history is the authoritative ledger for this scope
 
 5. nomenclature:
-   series artifacts use `###-stub` naming
+   non-triad artifacts use `###-SPEC_stub` naming
    the prefix is a three-digit numeric prefix
-   series artifacts are ordered by the numeric prefix
+   the prefix order is static in CANON
+   artifacts are consecutive and generative
+   the `000` prefix is reserved for the SPEC artifact itself
    the stub is lowercase kebab-case
 
 6. canon-approval:
