@@ -8,6 +8,12 @@ The git machine scope.
 ### git
 The version control system used as the ledger.
 
+### USER
+The human governor who authorizes canon changes.
+
+### AI
+The agent that proposes and applies canon changes after approval.
+
 ### CANON
 The axioms for a scope.
 
@@ -94,6 +100,24 @@ A non-authoritative output describing evaluation.
 
 ### series
 A set of related artifacts ordered by a numeric prefix.
+
+### canon change
+A modification to a scope's canon artifacts.
+
+### canon-approval
+The explicit USER permission required before a canon change is committed.
+
+### autocommit
+Automated commit by the AI after canon approval, unless the USER overrides it.
+
+### commit-push coupling
+Requirement that a canon commit is pushed immediately when a remote is configured.
+
+### remote
+A configured git endpoint for pushing commits.
+
+### override
+An explicit USER instruction to prevent autocommit.
 
 ### nomenclature
 The naming rule applied to a series.
