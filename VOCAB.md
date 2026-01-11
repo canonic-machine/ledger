@@ -26,6 +26,9 @@ Final and controlling for decisions.
 ### ledger
 The authoritative record of change for this scope.
 
+### autodoc
+The ledger for a scope.
+
 ### scope
 The area governed by a canon.
 
