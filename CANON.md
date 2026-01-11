@@ -15,3 +15,6 @@ axioms:
 
 4. commit-push coupling:
    canon commit push immediately when a remote is configured
+
+5. maturity-autocommit:
+   after approval, the AI may ask if canon maturity is true; if confirmed, autocommit is enabled

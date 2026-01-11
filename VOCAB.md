@@ -68,6 +68,15 @@ An explicit USER instruction to prevent autocommit.
 ### commit-push coupling
 Requirement that a canon commit is pushed immediately when a remote is configured.
 
+### maturity-autocommit
+Autocommit enabled after confirmation that canon maturity is true.
+
+### maturity
+The state where canon changes are stable by git signal.
+
+### confirm
+To affirm a condition as true.
+
 ### push
 To send commit to a remote.
 
