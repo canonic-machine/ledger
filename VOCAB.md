@@ -83,6 +83,36 @@ Without exception.
 ### itself
 The same artifact referring to itself.
 
+### authoritative
+Final and controlling for decisions.
+
+### require
+To mandate a condition.
+
+### explicit
+Stated directly.
+
+### approval
+Permission granted by the USER.
+
+### before
+Earlier than another action.
+
+### after
+Later than another action.
+
+### unless
+Except when a condition applies.
+
+### when
+At the time that a condition applies.
+
+### immediately
+Without delay.
+
+### configured
+Set up for use.
+
 ### ledger
 The authoritative record of changes for this scope.
 
@@ -92,8 +122,17 @@ The ordered record of commits in a repository.
 ### repository
 The git store for a scope.
 
+### stage
+To add changes to the next commit.
+
 ### commit
 A recorded change in git history.
+
+### push
+To send commits to a remote.
+
+### pushed
+Sent to a remote.
 
 ### signal
 A non-authoritative output describing evaluation.
@@ -148,6 +187,12 @@ Governed template artifacts in a scope.
 
 ### PROTOCOLS
 The protocols artifact for a scope.
+
+### canon
+The CANON artifacts for a scope.
+
+### canon commit
+A commit that records a canon change.
 
 ### canon change
 A modification to a scope's canon artifacts.
