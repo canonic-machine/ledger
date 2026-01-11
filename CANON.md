@@ -1,6 +1,6 @@
-GIT (/canonic/machine/git/)
+GIT (/canonic/machine/os/git/)
 
-inherits: /canonic/machine/
+inherits: /canonic/machine/os/
 
 axioms:
 

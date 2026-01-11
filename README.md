@@ -6,10 +6,10 @@ Governed git machine scope under CANONIC.
 - Define the git machine scope and its constraints.
 
 ## Scope
-- Git machine governance in /canonic/machine/git/.
+- Git machine governance in /canonic/machine/os/git/.
 
 ## Inheritance
-- /canonic/machine/
+- /canonic/machine/os/
 
 ## References
 - 00-GIT.md

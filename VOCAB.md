@@ -1,4 +1,4 @@
-# VOCAB (/canonic/machine/git/)
+# VOCAB (/canonic/machine/os/git/)
 
 ## Core terms
 
