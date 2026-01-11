@@ -8,10 +8,10 @@ axioms:
    git history is the authoritative ledger for this scope
 
 2. canon-approval:
-   canon changes require explicit USER approval before commit
+   canon change require explicit USER approval before commit
 
 3. autocommit:
-   after approval, the AI stages and commits canon changes unless the USER overrides
+   after approval, the AI stage and commit canon change unless the USER override
 
 4. commit-push coupling:
-   canon commits are pushed immediately when a remote is configured
+   canon commit push immediately when a remote is configured
