@@ -22,3 +22,7 @@ axioms:
 6. producer-consumer:
    AI commits producer artifacts (CANON, VOCAB) after USER approval
    USER commits consumer artifacts (episodes, prose)
+
+7. vocab-closure:
+   AI must verify VOCAB closure before producer commit
+   missing content concepts must be added before commit

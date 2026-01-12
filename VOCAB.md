@@ -113,4 +113,28 @@ Consumer artifacts that document sessions and insights.
 ### prose
 Consumer artifacts that interpret ledger evidence.
 
+### vocab-closure
+The state where VOCAB defines every content concept used by CANON.
+
+### verify
+To confirm a condition before action.
+
+### closure
+The state where all required definitions are present.
+
+### content
+A concept carrying domain meaning, excluding function words.
+
+### missing
+Not present when required.
+
+### added
+Included after initial state.
+
+### must
+Required by axiom.
+
+### concepts
+VOCAB entries.
+
 End of VOCAB.
