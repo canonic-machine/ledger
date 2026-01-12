@@ -95,4 +95,22 @@ A configured git endpoint for pushing commits.
 ### configured
 Set up for use.
 
+### producer-consumer
+The commit pattern where AI commits producer artifacts and USER commits consumer artifacts.
+
+### producer
+The role that creates canon artifacts (CANON, VOCAB) from SPEC.
+
+### consumer
+The role that creates artifacts (episodes, prose) using the canon.
+
+### artifacts
+Files governed by or derived from canon.
+
+### episodes
+Consumer artifacts that document sessions and insights.
+
+### prose
+Consumer artifacts that interpret ledger evidence.
+
 End of VOCAB.

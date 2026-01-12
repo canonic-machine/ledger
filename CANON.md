@@ -18,3 +18,7 @@ axioms:
 
 5. maturity-autocommit:
    after approval, the AI may ask if canon maturity is true; if confirmed, autocommit is enabled
+
+6. producer-consumer:
+   AI commits producer artifacts (CANON, VOCAB) after USER approval
+   USER commits consumer artifacts (episodes, prose)
