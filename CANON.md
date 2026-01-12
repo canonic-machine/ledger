@@ -1,28 +1,52 @@
-GIT (/canonic/machine/os/git/)
+# LEDGER (/canonic/machine/os/ledger)
 
 inherits: /canonic/machine/os/
 
-axioms:
+---
 
-1. ledger:
-   git history is the authoritative ledger for this scope
+## Axioms
 
-2. canon-approval:
-   canon change require explicit USER approval before commit
+### 1. Authoritative record
 
-3. autocommit:
-   after approval, the AI stage and commit canon change unless the USER override
+The LEDGER is the sole authoritative record of state transitions for this scope.
 
-4. commit-push coupling:
-   canon commit push immediately when a remote is configured
+A system state exists if and only if it is persisted in the LEDGER.
 
-5. maturity-autocommit:
-   after approval, the AI may ask if canon maturity is true; if confirmed, autocommit is enabled
+---
 
-6. producer-consumer:
-   AI commits producer artifacts (CANON, VOCAB) after USER approval
-   USER commits consumer artifacts (episodes, prose)
+### 2. Immutability
 
-7. vocab-closure:
-   AI must verify VOCAB closure before producer commit
-   missing content concepts must be added before commit
+Persisted LEDGER history **MUST NOT** be altered.
+
+Corrections, reversals, and amendments **MUST** occur only through the creation of new states.
+
+---
+
+### 3. Temporal ordering
+
+The LEDGER **MUST** preserve a total order of persisted state transitions.
+
+The order of persistence defines the authoritative execution history.
+
+---
+
+### 4. Governance anchoring
+
+Canonical artifacts derive authority exclusively from the LEDGER.
+
+Artifacts not persisted in the LEDGER have no canonical standing.
+
+---
+
+### 5. Implementation independence
+
+This CANON defines the LEDGER as a semantic role.
+
+Specific implementations (e.g., git) are non-normative and may vary without affecting validity.
+
+---
+
+**This CANON defines validity for the LEDGER scope.**
+**Protocols, automation, and agent behavior are defined in downstream MACHINE and AGENT layers.**
+
+---
