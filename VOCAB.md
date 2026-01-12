@@ -1,12 +1,12 @@
-# VOCAB (/canonic/machine/os/git/)
+# VOCAB (/canonic/machine/os/ledger/)
 
 ## Core concepts
 
-### GIT
-The git machine scope.
+### LEDGER
+The ledger machine scope.
 
-### git
-The version control system used as the ledger.
+### ledger
+The authoritative record of state transitions for a scope.
 
 ### USER
 The human governor who authorizes canon change.
@@ -17,23 +17,158 @@ The agent that applies canon change after approval.
 ### canon
 The governing artifacts for a scope.
 
-### history
-The ordered record of commit for a scope.
+### scope
+The area governed by a canon.
 
 ### authoritative
 Final and controlling for decisions.
 
-### ledger
-The authoritative record of change for this scope.
+### record
+A persisted entry in the ledger.
 
-### autodoc
-The ledger for a scope.
+### state
+A condition of the system at a point in time.
 
-### scope
-The area governed by a canon.
+### transitions
+Changes from one state to another.
 
-### canon-approval
-The explicit USER approval required before a canon commit.
+### persisted
+Recorded durably in the ledger.
+
+### persistence
+The act of recording durably.
+
+### system
+The governed entity under a scope.
+
+### exists
+Has being or presence.
+
+### sole
+The only one.
+
+### immutability
+The property of being unchangeable once persisted.
+
+### altered
+Changed after initial persistence.
+
+### corrections
+New states that fix prior errors.
+
+### reversals
+New states that undo prior states.
+
+### amendments
+New states that modify prior states.
+
+### creation
+The act of bringing into existence.
+
+### temporal
+Relating to time.
+
+### ordering
+The arrangement in sequence.
+
+### order
+The sequence of events.
+
+### total
+Complete and without gaps.
+
+### preserve
+To maintain unchanged.
+
+### defines
+Establishes the meaning of.
+
+### execution
+The carrying out of actions.
+
+### history
+The ordered record of past states.
+
+### governance
+The system of rules and authority.
+
+### anchoring
+The binding of authority to a source.
+
+### derive
+To obtain from a source.
+
+### authority
+The right to govern.
+
+### exclusively
+Without exception.
+
+### standing
+Recognized status or validity.
+
+### artifacts
+Files governed by or derived from canon.
+
+### canonical
+Having authority from the canon.
+
+### implementation
+A specific realization of an abstract concept.
+
+### independence
+Freedom from dependence on specifics.
+
+### semantic
+Relating to meaning.
+
+### role
+A function or purpose.
+
+### implementations
+Specific realizations (plural).
+
+### non-normative
+Not required for validity.
+
+### validity
+The state of being valid under the canon.
+
+### vary
+To differ or change.
+
+### affecting
+Having an effect on.
+
+### downstream
+Later in the hierarchy or process.
+
+### layers
+Levels in the canonical hierarchy.
+
+### MACHINE
+The machine layer of the canonical hierarchy.
+
+### AGENT
+The agent layer of the canonical hierarchy.
+
+### protocols
+Defined procedures for action.
+
+### automation
+Actions performed without manual intervention.
+
+### behavior
+The manner of acting.
+
+### defined
+Specified with precision.
+
+### inherits
+Receives properties from a parent scope.
+
+### axioms
+Fundamental principles that govern a scope.
 
 ### change
 A modification to a file or artifact.
@@ -47,41 +182,23 @@ Stated directly.
 ### approval
 Permission granted by the USER.
 
-### before
-Earlier than another action.
-
 ### commit
-A recorded change in git history.
-
-### autocommit
-Automated commit by the AI after canon approval unless the USER override.
-
-### after
-Later than another action.
+A recorded change in ledger history.
 
 ### stage
 To add change to the next commit.
 
-### unless
-Except when a condition applies.
-
 ### override
 An explicit USER instruction to prevent autocommit.
 
-### commit-push coupling
-Requirement that a canon commit is pushed immediately when a remote is configured.
-
-### maturity-autocommit
-Autocommit enabled after confirmation that canon maturity is true.
-
-### maturity
-The state where canon changes are stable by git signal.
-
-### confirm
-To affirm a condition as true.
-
 ### push
 To send commit to a remote.
+
+### remote
+A configured endpoint for pushing commits.
+
+### configured
+Set up for use.
 
 ### immediately
 Without delay.
@@ -89,52 +206,88 @@ Without delay.
 ### when
 At the time that a condition applies.
 
-### remote
-A configured git endpoint for pushing commits.
-
-### configured
-Set up for use.
-
-### producer-consumer
-The commit pattern where AI commits producer artifacts and USER commits consumer artifacts.
-
-### producer
-The role that creates canon artifacts (CANON, VOCAB) from SPEC.
-
-### consumer
-The role that creates artifacts (episodes, prose) using the canon.
-
-### artifacts
-Files governed by or derived from canon.
-
-### episodes
-Consumer artifacts that document sessions and insights.
-
-### prose
-Consumer artifacts that interpret ledger evidence.
-
-### vocab-closure
-The state where VOCAB defines every content concept used by CANON.
-
-### verify
-To confirm a condition before action.
-
-### closure
-The state where all required definitions are present.
-
-### content
-A concept carrying domain meaning, excluding function words.
-
-### missing
-Not present when required.
-
-### added
-Included after initial state.
-
 ### must
 Required by axiom.
 
-### concepts
-VOCAB entries.
+### only
+Exclusively; no other.
+
+### new
+Not existing before.
+
+### if
+On the condition that.
+
+### occur
+To happen.
+
+### through
+By means of.
+
+### specific
+Particular; not general.
+
+### may
+Permitted but not required.
+
+### without
+In the absence of.
+
+### this
+Referring to the current scope.
+
+### for
+Indicating purpose or scope.
+
+### from
+Indicating origin or source.
+
+### and
+Conjunction linking items.
+
+### or
+Conjunction indicating alternatives.
+
+### not
+Negation.
+
+### is
+State of being.
+
+### are
+State of being (plural).
+
+### the
+Definite article.
+
+### a
+Indefinite article.
+
+### an
+Indefinite article before vowel.
+
+### in
+Indicating location or inclusion.
+
+### of
+Indicating relationship or belonging.
+
+### to
+Indicating direction or purpose.
+
+### that
+Referring to a specific thing.
+
+### as
+In the role of.
+
+### be
+To exist or have identity.
+
+### by
+Indicating agent or means.
+
+### with
+Indicating accompaniment.
 
 End of VOCAB.

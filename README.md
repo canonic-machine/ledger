@@ -1,17 +1,17 @@
-# GIT
+# LEDGER
 
-Governed git machine scope under CANONIC.
+Governed ledger machine scope under CANONIC.
 
 ## Purpose
-- Define the git machine scope and its constraints.
+- Define the ledger machine scope and its constraints.
 
 ## Scope
-- Git machine governance in /canonic/machine/os/git/.
+- Ledger machine governance in /canonic/machine/os/ledger/.
 
 ## Inheritance
 - /canonic/machine/os/
 
 ## References
-- GIT.md
+- LEDGER.md
 - CANON.md
 - VOCAB.md
