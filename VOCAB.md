@@ -87,3 +87,15 @@ The total order of state transitions by time of persistence.
 The state of a scope that satisfies all applicable axioms.
 
 ---
+
+### MACHINE
+
+The layer that defines protocols, automation, and enforcement mechanisms.
+
+---
+
+### AGENT
+
+The layer that defines agent behavior and interaction constraints.
+
+---
