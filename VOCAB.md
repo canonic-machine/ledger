@@ -1,5 +1,7 @@
 # VOCAB (/canonic/machine/os/ledger/)
 
+inherits: /
+
 ---
 
 ## Content Concepts
