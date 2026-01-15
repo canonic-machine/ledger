@@ -46,6 +46,18 @@ Specific implementations (e.g., git) are non-normative and may vary without affe
 
 ---
 
+---
+
+## Lifecycle
+
+**Origin:** Extracted from OS when immutability semantics required explicit governance separate from operational constraints.
+
+**Current state:** AI-assisted. Git operations executed by agents; immutability preserved by governance, not tooling.
+
+**Automation drift:** Stable. Immutability is a semantic property, not an automation target. Agents execute commits; governance ensures no history rewriting.
+
+---
+
 **This CANON defines validity for the LEDGER scope.**
 **Protocols, automation, and agent behavior are defined in downstream MACHINE and AGENT layers.**
 
