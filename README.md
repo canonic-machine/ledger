@@ -20,6 +20,10 @@ LEDGER defines the immutable, ordered record from which all canonical artifacts 
 
 ---
 
+## Canonbase
+
+The **canonbase** is the full inheritance graph of all scopes governed by CANONIC, spanning all repositories in a workspace.
+
 ## Stack Navigation
 
 | Layer | Repository | Purpose |
