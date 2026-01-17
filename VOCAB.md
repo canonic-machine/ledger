@@ -36,12 +36,6 @@ A concrete realization of a semantic role.
 
 ---
 
-### LEDGER
-
-The authoritative record of state transitions.
-
----
-
 ### persistence
 
 The act of recording a state transition in the LEDGER.
@@ -63,12 +57,6 @@ A configuration of artifacts at a point in time.
 ### temporal ordering
 
 The total order of state transitions by time of persistence.
-
----
-
-### MACHINE
-
-The layer that defines protocols, automation, and enforcement mechanisms.
 
 ---
 
